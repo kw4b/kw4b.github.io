@@ -1,3 +1,4 @@
+// this is all from google i didnt write it im not that good
 (function () {
   var on = addEventListener,
     off = removeEventListener,
