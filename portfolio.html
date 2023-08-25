@@ -13,145 +13,160 @@
         <a href="https://kw4b.github.io" class="button1" style="font-family: arial; text-decoration: none;">Back</a>
       </div>
     </div>
-    <div class="row">
-      <div class="column">
-        <img src="/images/barb.png">
-        <img src="/images/kairo.png">
-        <img src="/images/dog.png">
-        <img src="/images/react.png">
-        <img src="/images/kwab.png">
-        <img src="/images/shiver.png">
-        <img src="/images/omg.png">
-      </div>
-        <div class="column">
-          <img src="/images/eyes.png">
-          <img src="/images/val.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-        </div>
-        <div class="column">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-        </div>
-        <div class="column">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-        </div>
-        <div class="column">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-          <img src="https://i.imgur.com/qAGmV1x.png">
-        </div>
-       
-        
+<div class="row"> 
+  <div class="column">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="https://i.imgur.com/qAGmV1x.png" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+
+      .row {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      /* four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 25%;
+        /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
       
-      <style>
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-          padding: 0 4px;
-        }
-
-        /* Create four equal columns that sits next to each other */
+      @media screen and (max-width: 800px) {
         .column {
-          flex: 25%;
-          max-width: 25%;
-          padding: 0 4px;
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
         }
+      }
 
-        .column img {
-          margin-top: 8px;
-          vertical-align: middle;
-          width: 100%;
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
         }
+      }
 
-        @media screen and (max-width: 800px) {
-          .column {
-            flex: 50%;
-            max-width: 50%;
-          }
-        }
+      img {
+        transition: transform 0.25s ease;
+      }
 
-        @media screen and (max-width: 600px) {
-          .column {
-            flex: 100%;
-            max-width: 100%;
-          }
-        }
+      img:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
 
-        img {
-          transition: transform 0.25s ease;
-        }
+      h1 {
+        font-weight: bold;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+        position: relative;
+        text-align: center;
+      }
 
-        img:hover {
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-        }
-
+      @media (max-width: 768px) {
         h1 {
-          font-weight: bold;
-          margin: 20px 0;
-          font-family: Arial, sans-serif;
-          position: relative;
-          text-align: center;
+          font-size: 24px;
         }
+      }
 
-        @media (max-width: 768px) {
-          h1 {
-            font-size: 24px;
-          }
-        }
+      .button1 {
+        background-color: black;
+        color: white;
+        border: none;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 40px;
+        width: 7rem;
+        height: 3rem;
+        line-height: 3rem;
+        padding: 0 0.5rem;
+        vertical-align: middle;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        font-size: 18px;
+        font-weight: 400;
+      }
 
-        .button1 {
-          background-color: black;
-          color: white;
-          border: none;
-          border: none;
-          text-align: center;
-          display: inline-block;
-          font-size: 16px;
-          margin: 40px;
-          width: 7rem;
-          height: 3rem;
-          line-height: 3rem;
-          padding: 0 0.5rem;
-          vertical-align: middle;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-          font-size: 18px;
-          font-weight: 400;
-        }
+      .button1:hover {
+        background-color: #FF0000;
+        color: white;
+        transition-duration: 0.3s;
+      }
 
-        .button1:hover {
-          background-color: #FF0000;
-          color: white;
-          transition-duration: 0.3s;
-        }
-
-        .button {
-          border: none;
-          color: black;
-          padding: 20px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 40px;
-          cursor: pointer;
-        }
-      </style>
+      .button {
+        border: none;
+        color: black;
+        padding: 20px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 40px;
+        cursor: pointer;
+      }
+    </style>
