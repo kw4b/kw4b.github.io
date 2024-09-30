@@ -1,0 +1,191 @@
+/* stops horizontal scrolling */
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    padding-bottom: 25px;
+    border: 5px solid black;
+}
+
+.navbar-brand {
+    position: absolute;
+    transform: translatey(25%);
+}
+
+.navbar-brand img {
+
+    transition: linear 0.05s;
+}
+
+.navbar-brand img:hover {
+    transform: rotate(4deg);
+}
+
+.navbar a {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    background-color: white;
+}
+
+/*  logo overlapping the dropdown on mobile */
+@media (max-width: 991.98px) {
+    .navbar-brand {
+        position: relative;
+        transform: none;
+        left: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.hover-white:hover {
+    background-color: black;
+    color: white;
+}
+
+.hover-red:hover {
+    background-color: red;
+    color: white;
+}
+
+.hover-yellow:hover {
+    background-color: #fed200;
+    color: white;
+}
+
+.hover-blue:hover {
+    background-color: #008cfd;
+    color: white
+}
+
+.row img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.element {
+    background: repeating-linear-gradient(45deg,
+            #606dbc,
+            #606dbc 10px,
+            #465298 10px,
+            #465298 20px);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    border: 6px solid black;
+    background-image:
+        repeating-linear-gradient(-45deg,
+            transparent,
+            transparent 1rem,
+            #ccc 1rem,
+            #ccc 2rem);
+    background-size: 200% 200%;
+    animation: barberpole 55s linear infinite;
+}
+
+@keyframes barberpole {
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.pfp {
+    width: 200px;
+    
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+
+table {
+    margin-top: 30px;
+}
+.quote {
+    font-style: italic;
+    color:grey;
+    margin-bottom:15px;
+    font-size:25px;
+}
+
+.quote::before {
+   content:"\00ab  " ;
+}
+
+.quote::after {
+   content:" \00bB" ;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: white;
+    border: 5px solid black;
+}
+#statuscafe-username  {
+    margin-bottom: .5em;
+    color:black;
+}
+#statuscafe-username a {
+    color:black;
+    font-weight: bold;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+#updates {
+    padding: .5em;
+    background-color: white;
+    border: 5px solid black;
+    
+}
+#updates p {
+    margin: 0 1em 0.5em 1em;
+}
+#updates h4 {
+    color:black;
+    font-weight: bold;
+}
+
+.redbutt {
+    background-color:red;
+    color:white;
+}
+.yellowbutt {
+    background-color:#fed200;
+    color:black;
+}
+
+.bluebutt {
+    background-color:#008cfd;
+    color:white;
+}
+
+.btn:hover {
+    background-color:white;
+    color:black;
+}
+
+.genbutt {
+    background-color: black;
+    color:white;
+}
